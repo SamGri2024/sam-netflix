@@ -49,7 +49,7 @@ This project analyzes Netflix data and generates various visualizations. The dat
 ![Movie Duration by Release Year](results/movie_duration_by_release_year.png)
 
 ### Average Movie Duration by Release Year
-![Average Movie Duration by Release Year](results/average_movie-duration_by_release_year.png)
+![Average Movie Duration by Release Year](results/average_movie_duration_by_release_year.png)
 
 ### Average Movie Duration by Release Year and Genre
 ![Average Movie Duration by Release Year and Genre](results/average_by_release_year_and_genre.png)
