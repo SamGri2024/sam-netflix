@@ -8,35 +8,40 @@ This project analyzes Netflix data and generates various visualizations. The dat
    ```bash
    git clone https://github.com/yourusername/sam-netflix.git
    cd sam-netflix
+   ```
 
-## Step 2: Set Up a Virtual Environment
+2. **Set Up a Virtual Environment**
 
-To create and activate a virtual environment, follow these commands:
+   To create and activate a virtual environment, follow these commands:
 
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-python3 -m venv venv
-source venv/bin/activate
+3. **Install Required Packages**
 
-## Step 3: Install Required Packages
+   After activating your virtual environment, install the necessary Python packages by running:
 
-After activating your virtual environment, install the necessary Python packages by running:
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
 
+4. **Generate the Netflix Dataset**
 
-pip install pandas matplotlib seaborn
+   To generate the Netflix dataset, navigate to the `src` directory and run the `generate_netflix_data.py` script:
 
-## Step 4: Generate the Netflix Dataset
+   ```bash
+   python3 src/generate_netflix_data.py
+   ```
 
-To generate the Netflix dataset, navigate to the `src` directory and run the `generate_netflix_data.py` script:
+5. **Run the Analysis and Visualization**
 
-python3 src/generate_netflix_data.py
+   After generating the dataset, you can proceed to run the analysis and visualization script. Ensure you are in the root directory of the project, and then execute:
 
-
-## Step 5: Run the Analysis and Visualization
-
-After generating the dataset, you can proceed to run the analysis and visualization script. Ensure you are in the root directory of the project, and then execute:
-
-
-python3 src/analyze_netflix_data.py
+   ```bash
+   python3 src/analyze_netflix_data.py
+   ```
 
 ## Results
 
